@@ -1,0 +1,87 @@
+  html {
+                font-family: GillSans, Calibri, Trebuchet, sans-serif;
+            }
+
+            nav ul li a {
+                color: #d3d3d3;
+            }
+            .blue-grey.lighten-6 {
+                background-color: #f8f8f8 !important;
+            }
+       
+            .calendar1 span{
+                vertical-align: -30px;
+            }
+            .calendar1 {
+                height: 68px;
+                background: url(../sprite/sprite.png) no-repeat 0px -214px;
+                
+            }
+
+            .sprite-1{
+                height: 70px;
+                background: url(../sprite/sprite.png) no-repeat 100px 0px;
+            }
+            .sprite-2{
+                height: 73px;
+                background: url(../sprite/sprite.png) no-repeat 100px -70px;
+            }
+            .sprite-3{
+                height: 70px;
+                background: url(../sprite/sprite.png) no-repeat 100px -143px;
+            }
+			.logo-container{
+                height: 40px;
+                background: url(../sprite/sprite.png) no-repeat 0px -403px;
+                width: 50%;
+            }
+      
+            @media (min-width: 992px) {
+                
+                .sprite-1{
+                    height: 70px;
+                    background: url(../sprite/sprite.png) no-repeat 180px 0px;
+                }
+                .sprite-2{
+                    height: 73px;
+                    background: url(../sprite/sprite.png) no-repeat 180px -70px;
+                }
+                .sprite-3{
+                    height: 70px;
+                    background: url(../sprite/sprite.png) no-repeat 180px -143px;
+                }
+            }
+            
+            @media (max-width: 768px) {
+                
+                .sprite-1{
+                    height: 70px;
+                    background: url(../sprite/sprite.png) no-repeat 140px 0px;
+                }
+                .sprite-2{
+                    height: 73px;
+                    background: url(../sprite/sprite.png) no-repeat 140px -70px;
+                }
+                .sprite-3{
+                    height: 70px;
+                    background: url(../ssprite/sprite.png) no-repeat 140px -143px;
+                } 
+				.logo-container{
+                    height: 40px;
+                    background: url(../sprite/sprite.png) no-repeat 0px -403px;
+                    width: 73%;
+                    right: 0.5rem;
+                    padding: 0;
+                }
+                
+      
+            }
+            .btn-borda {
+                border: 1px solid;
+                padding: 9px;
+                border-radius: 5px;
+            }
+            
+            nav ul.hide-on-med-and-down li a{
+                font-size: 0.8em;
+            }
